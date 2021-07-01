@@ -1,0 +1,17 @@
+[root]
+root_path = "~/医疗大数据/my_code"
+
+[data]
+original_image_root = 'original_image'
+generated_image_root = "generated_image"
+default_dataset_name = "opacity"
+melenoma_image_dir = "original_image/melanoma_image_meta"
+
+[checkpoints]
+checkpoints_root = "checkpoint"
+sample_image_root = "sample_image"
+
+[model.args]
+latent_dim = 100
+
+[train.args]

@@ -1,0 +1,20 @@
+[root]
+root_path = "~/ISIC/my_code"
+
+[data]
+original_image_root = "original_image"
+melenoma_image_dir = "original_image/melanoma_image_meta"
+#original_image_dir = "original_image/opacity"
+default_original_image_dir = "opacity"
+generated_image_root = "generated_image"
+
+[checkpoints]
+checkpoints_root = "checkpoint"
+sample_image_root = "sample_image"
+break_epoch = 500
+best_c_loss = 0.11502016134560109
+
+[model.args]
+latent_dim = 100
+
+[train.args]
